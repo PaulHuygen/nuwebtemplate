@@ -18,7 +18,7 @@ m4_dnl
 m4_dnl Paths and URL's
 m4_dnl
 m4_dnl
-m4_define(m4_aprojroot, `m4_regexp(m4_esyscmd(pwd), `\(^[a-zA-Z0-9/]+\)/nuweb$', `\1')')m4_dnl
+m4_define(m4_aprojroot, m4_regexp(m4_esyscmd(pwd), `\(^[a-zA-Z0-9/-]+\)/nuweb$', `\1'))m4_dnl
 m4_define(m4_projroot, `..')m4_dnl
 m4_dnl
 m4_dnl    subdirs 

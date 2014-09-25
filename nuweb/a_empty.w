@@ -383,6 +383,8 @@ can. Therefore, place the following script on a local directory.
 W2PDF=m4_nuwebbindir/w2pdf
 @| @}
 
+@d directories to create @{m4_nuwebbindir @| @}
+
 @d expliciete make regels  @{@%
 \$(W2PDF) : m4_progname.w
 	\$(NUWEB) m4_progname.w
